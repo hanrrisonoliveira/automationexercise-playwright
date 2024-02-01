@@ -29,7 +29,8 @@ module.exports = defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    baseURL: 'https://automationexercise.com'
+    baseURL: 'https://automationexercise.com',
+    testIdAttribute: 'data-qa'
   },
 
   /* Configure projects for major browsers */
